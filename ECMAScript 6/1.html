@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = ['a','b','c'];
+        let str = 'def';
+        console.log(arr);
+        console.log('for of:')
+        for (let s of arr) {
+            console.log(s);
+        }
+        console.log('for in:')
+        for (let a in arr) {
+            console.log(a)
+        }
+        console.log('forEach:')
+        arr.forEach((a,i) => {
+            console.log(a,i)
+        })
+
+        console.log(str)
+        console.log('for of:')
+        for (let s of str) {
+            console.log(s);
+        }
+        console.log('for in:')
+        for (let a in str) {
+            console.log(a)
+        }
+        console.log('forEach:')
+        str.forEach((a,i) => {
+            console.log(a,i)
+        })
+    </script>
+</body>
+</html>
